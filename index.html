@@ -1,62 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About me</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../example.css">
 </head>
 
 <body>
-    <header class="pushToTop">
-        <div class="sideMargins">
-            <div class="tag1">
-                <h1>James Buteera</h1>
-            </div>
+    <nav class="navbar navbar-white bg-white">
 
-            <ul class="navBtns">
-                <li><a href="index.html">About</a></li>
-                <li>|</li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li>|</li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
+        <div class="container">
+            <!---added  anavabar which is conataining the user name "James Buteera"-->
+            <div class="row">
+                <div class="col-sm-6">
+                    <span class="navbar-brand mb-0 h1 bg-info text-white">
+                        <h1>James Buteera</h1>
+                    </span>
 
-    <div class="sideMargins container mainContBrd">
-        <div class="innerContainer">
-            <div class="about">
-                <h3>About Me</h3>
-            </div>
-            <hr />
-            <div class="middle">
-                <img id="aboutMeImg" src="./images/imag1.jpg">
-                <div class="words">
-                    <div class="word1">
-                    </div>
-                    <div class="word2">
-                            <p class="p1"> My name is James Buteera I live in charlotte North Corolina, United States of America.</p>
-                            <p class="p2"> I attended Garinger High School in 2016 because I came into US from Africa one year before
-                              graduating my high school,I had to go back in high school in USA and finish my degree.</p>
-                            <p class="p3"> After My high school graduation here in USA,i joined central piedmont community college for an
-                              associate in computer science degree and I will graduate in 2022 if God wishes.</p>
-                            <p class="p4"> I am also attending UNC coding boot camp. I have learned alot including building the best website
-                              like this one.</p>
-                    </div>
                 </div>
-            </div>
+                <div class="col-sm-6">
+                    
+                    <!--The menu describing what is inside the web side "About","portfolio","contact"-->
+                    <ul class="list-group list-group-horizontal float-right" style="list-style: none;">
+                        <li><a href=" ">About</a> |</li>
+
+                        <li><a href="portfolio.html">&nbsp; Portfolio</a> |</li>
+
+                        <li><a href="contact.html">&nbsp; Contact</a></li>
+                    </ul>
+   
+    </div>
+    </div>
+</nav>
+    <!---------------------This is a arow with Heading "About Me"----------------------------->
+    <div class="container">
+    <div class="row">
+
+        <div class="col-sm-6">
+            <h1> About Me</h1>
+
+        </div>
+        <div class="col-sm-6">
+        </div>
+    </div>
+    <!--added a profile image inside "row" and column"6"-->
+    <div class="row">
+
+
+        <!--The paragraph describing the user -->
+        <div class="col">
+            <p>
+            <img class="w-50 float-left" src="./images/panthers.jpg">
+                My name is James Buteera I live in charlotte North corolina.
+                I am a christian by faith and my church is christ Central Church it is cross to central avenue. </p>
+            I love people no matter their background,origin or race. I had ageat chance to meet so many different people
+            from diffirent countries.Charlotte have completely changed my life including great accesss to services like
+            network,meeting new people as well education possibilities.</p>
+        </div>
+    </div>
+    <div class="row mb-5">
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <!---The navabar that was support to push the text in the bottom middle eventhough it didn't work out-->
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <div class="col-sm-6">
+                    <a class="navbar-brand float-right" href="#">Copy Right Inc</a>
+            </nav>
         </div>
     </div>
 
-    <footer class="foot borderTop pushToBottom">No copy right</footer>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+
+@media screen and (max-width:600)
+{
+    body
+    {
+        background:auto;
+
+        font-size: 18px;
+    }
+    .container{
+        width: 100px;
+        padding: 28px;
+
+    }
+    .row {
+        width: 100%;
+    }
+
+}
+
+body {
+    background: url('./Css/images/criss-cross.png');
+}
+.w-100{
+    
+}
+.p{
+    margin:10px;
+}
+
+    
+.b{
+    border-bottom: 5px solid #44eeee;
+    float: right;
+}
+html {
+
+}
